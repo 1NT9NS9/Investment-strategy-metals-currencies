@@ -47,7 +47,7 @@ Diagram showing how predictions work in the system:
 
 2. **Prediction Pipeline**
    ```
-   Historical Data → Transformer Model → Ensemble → Predictions → N-BEATS Model → 
+   Historical Data → Transformer Model → Ensemble → Predictions → N-BEATS Model 
    ```
 
 3. **Content Generation**
