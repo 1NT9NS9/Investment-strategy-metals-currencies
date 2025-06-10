@@ -6,23 +6,7 @@ The Russian Investment Platform is an AI-powered investment system designed to c
 
 ## 🏗️ System Architecture
 
-russian-investment-platform/
-├── services/
-│   ├── api-gateway/         # API Gateway with authentication
-│   ├── prediction/          # ML prediction service
-│   ├── genai/              # Content generation service
-│   ├── data-ingestion/     # Market data collection
-│   ├── portfolio-management/
-│   └── user/
-├── frontend/               # Next.js application
-├── infrastructure/
-│   ├── docker/            # Docker configurations
-│   └── kubernetes/        # K8s deployments
-├── shared/                # Shared models and utilities
-├── docs/                  # Documentation
-├── docker-compose.yml     # Local development setup
-├── requirements.txt       # Python dependencies
-└── README.md             # Project overview
+![image](https://github.com/user-attachments/assets/3f3f0eaa-d850-4811-8664-bb85d548de8c)
 
 Diagram showing how predictions work in the system:
 
@@ -63,15 +47,12 @@ Diagram showing how predictions work in the system:
 
 2. **Prediction Pipeline**
    ```
-   Historical Data → Transformer Model → Ensemble → Predictions
-                  → N-BEATS Model → 
+   Historical Data → Transformer Model → Ensemble → Predictions → N-BEATS Model → 
    ```
 
 3. **Content Generation**
    ```
-   Predictions → GenAI Service → Market Commentary
-                              → Risk Summaries
-                              → Scenario Analysis
+   Predictions → GenAI Service → Market Commentary → Risk Summaries → Scenario Analysis
    ```
 
 ## 🔧 Technical Stack
